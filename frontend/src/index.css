@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 5% auto;
+}
+
+.form-container,
+.belowform {
+  width: 45%;
+  padding: 20px;
+  border: 2px solid black;
+  align-items: center;
+  margin-left:25%;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.belowform h1 {
+  text-align: center;
+}
+
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.item-details {
+  margin-bottom: 10px;
+}
+
+.item-field {
+  font-weight: bold;
+}
+
+.item-actions {
+  text-align: right;
+}
